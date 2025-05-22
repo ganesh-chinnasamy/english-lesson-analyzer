@@ -1,5 +1,10 @@
+import whisper
+
 def transcribe_audio(audio_path):
-    # TODO: Add whisper or vosk-based transcription here
-    print("Transcribing audio...")
-    return "Transcribed text here."
-# Transcri��o de �udio
+    print("Transcribing audio with Whisper...")
+    model = whisper.load_model("large")  # or "small", "medium", "large"
+    result = model.transcribe(audio_path)
+    return result["text"]
+
+
+

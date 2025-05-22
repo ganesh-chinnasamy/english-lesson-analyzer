@@ -32,7 +32,6 @@ A voice-based analytics tool for private English teachers and learners. It trans
 git clone https://github.com/SEU_USUARIO/english-lesson-analyzer.git
 cd english-lesson-analyzer
 pip install -r requirements.txt
-# English Lesson Analyzer
 
 ---
 
@@ -54,9 +53,9 @@ python-dotenv
 
 ###### 📝 Roadmap
 
- ✅Speaker diarization
-
  ✅Transcription engine
+ 
+ ❌Speaker diarization
 
  ❌Grammar correction module
 
@@ -71,4 +70,5 @@ python-dotenv
  ---
 
 🤝 Contributing
+
 This project is still under development. If you're a teacher, developer or linguist and want to collaborate, feel free to fork and contribute!
